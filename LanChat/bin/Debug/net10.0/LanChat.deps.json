@@ -1,0 +1,237 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "LanChat/1.0.0": {
+        "dependencies": {
+          "Avalonia": "12.1.1",
+          "Avalonia.Fonts.Inter": "12.1.1",
+          "Avalonia.Themes.Fluent": "12.1.1",
+          "AvaloniaUI.DiagnosticsSupport": "2.2.3",
+          "CommunityToolkit.Mvvm": "8.4.2"
+        },
+        "runtime": {
+          "LanChat.dll": {}
+        }
+      },
+      "Avalonia/12.1.1": {
+        "dependencies": {
+          "Avalonia.Remote.Protocol": "12.1.1",
+          "MicroCom.Runtime": "0.11.6"
+        },
+        "runtime": {
+          "lib/net10.0/Avalonia.Base.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          },
+          "lib/net10.0/Avalonia.Controls.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          },
+          "lib/net10.0/Avalonia.DesignerSupport.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          },
+          "lib/net10.0/Avalonia.Dialogs.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          },
+          "lib/net10.0/Avalonia.Markup.Xaml.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          },
+          "lib/net10.0/Avalonia.Markup.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          },
+          "lib/net10.0/Avalonia.Metal.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          },
+          "lib/net10.0/Avalonia.MicroCom.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          },
+          "lib/net10.0/Avalonia.OpenGL.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          },
+          "lib/net10.0/Avalonia.Vulkan.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          },
+          "lib/net10.0/Avalonia.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          }
+        }
+      },
+      "Avalonia.Fonts.Inter/12.1.1": {
+        "dependencies": {
+          "Avalonia": "12.1.1"
+        },
+        "runtime": {
+          "lib/net10.0/Avalonia.Fonts.Inter.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          }
+        }
+      },
+      "Avalonia.Remote.Protocol/12.1.1": {
+        "runtime": {
+          "lib/net10.0/Avalonia.Remote.Protocol.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          }
+        }
+      },
+      "Avalonia.Themes.Fluent/12.1.1": {
+        "dependencies": {
+          "Avalonia": "12.1.1"
+        },
+        "runtime": {
+          "lib/net10.0/Avalonia.Themes.Fluent.dll": {
+            "assemblyVersion": "12.1.1.0",
+            "fileVersion": "12.1.1.0"
+          }
+        }
+      },
+      "AvaloniaUI.DiagnosticsSupport/2.2.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1"
+        },
+        "runtime": {
+          "lib/net10.0/AvaloniaUI.DiagnosticsSupport.Avalonia.dll": {
+            "assemblyVersion": "2.2.3.0",
+            "fileVersion": "2.2.3.0"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.4.2": {
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.2.1"
+          }
+        }
+      },
+      "MicroCom.Runtime/0.11.6": {
+        "runtime": {
+          "lib/net8.0/MicroCom.Runtime.dll": {
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LanChat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Avalonia/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o8pZ1oE9AQ6gklpGM0lnOBp/JlVH0J/0mYszBf0GsSAcEnzHNCLM9NnrPZwKu4j2q9oNbVHYzzEPkszQeuqaKw==",
+      "path": "avalonia/12.1.1",
+      "hashPath": "avalonia.12.1.1.nupkg.sha512"
+    },
+    "Avalonia.Fonts.Inter/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V2d7OM1jybcl31KThdhf8XSl5SjQ6Ll/tXIfwQ00kMeWuPegRcOx8DLVpECHOOEKO9JZelXW0enuUu1D7Svikg==",
+      "path": "avalonia.fonts.inter/12.1.1",
+      "hashPath": "avalonia.fonts.inter.12.1.1.nupkg.sha512"
+    },
+    "Avalonia.Remote.Protocol/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0u77tnOwJnHtVLu+WBY7T56fN9W8n7++Uq9kHW6J+bfv5y13WZUMVS+PBzoBe32taYvz/oSomDGO1V41AHaFcQ==",
+      "path": "avalonia.remote.protocol/12.1.1",
+      "hashPath": "avalonia.remote.protocol.12.1.1.nupkg.sha512"
+    },
+    "Avalonia.Themes.Fluent/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7vdtZsM9o8I8LpU9dyiB/Ah7WB8a5V3JHLsExe4T433ynn5x57F+DBskctZuNOxml8hbe1GmtNUNkBDsqSVKVg==",
+      "path": "avalonia.themes.fluent/12.1.1",
+      "hashPath": "avalonia.themes.fluent.12.1.1.nupkg.sha512"
+    },
+    "AvaloniaUI.DiagnosticsSupport/2.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kQCInYusi2c9tjd9hV05Lln6Csbo07kiC672M3G7dsalDBe2j+pOk3We2nzdyy5ptQYy/9gQiC8ZaHhb6u/5Kw==",
+      "path": "avaloniaui.diagnosticssupport/2.2.3",
+      "hashPath": "avaloniaui.diagnosticssupport.2.2.3.nupkg.sha512"
+    },
+    "CommunityToolkit.Mvvm/8.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WadCzGEc2U+3e20avRLng4qNtt4zoOGWrdUISqJWrHe3/FSnrYjuM5Sb4yQb09LhkBXrrI4Zt3dLKgRMbItsrg==",
+      "path": "communitytoolkit.mvvm/8.4.2",
+      "hashPath": "communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+    },
+    "MicroCom.Runtime/0.11.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NdNWGDiZ6eS/Mf/9+QHR91cj1K7Hy+PX9yrHI/zM7xFYuj9IWT2uxtB6sCHjrnxAeLV9fut1R6zHDUGKX6f9lQ==",
+      "path": "microcom.runtime/0.11.6",
+      "hashPath": "microcom.runtime.0.11.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s/s20YTVY9r9TPfTrN5g8zPF1YhwxyqO6PxUkrYTGI2B+OGPe9AdajWZrLhFqXIvqIW23fnUE4+ztrUWNU1+9g==",
+      "path": "microsoft.io.recyclablememorystream/3.0.1",
+      "hashPath": "microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512"
+    }
+  }
+}
