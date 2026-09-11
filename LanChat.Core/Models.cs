@@ -16,3 +16,12 @@ public class AuthResponse
     public bool Success { get; set; }
     public string Message { get; set; } = string.Empty;
 }
+
+public class ChatMessageDto
+{
+    public string Sender { get; set; } = string.Empty;
+    public string Receiver { get; set; } = string.Empty;
+    public string EncryptedAesKey { get; set; } = string.Empty;
+    public string EncryptedContent { get; set; } = string.Empty;
+    public DateTime Timestamp { get; set; }
+}

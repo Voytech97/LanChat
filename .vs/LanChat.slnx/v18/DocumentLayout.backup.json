@@ -22,8 +22,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 199,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{adc868d0-8493-32f6-941b-672cb3f7d230}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +40,7 @@
               "RelativeDocumentMoniker": "LanChat.Core\\Models.cs",
               "ToolTip": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat.Core\\Models.cs",
               "RelativeToolTip": "LanChat.Core\\Models.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T10:07:12.618Z",
               "EditorCaption": ""
@@ -46,8 +54,7 @@
               "ToolTip": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\Views\\MainView.axaml",
               "RelativeToolTip": "LanChat\\Views\\MainView.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-01T18:39:01.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-01T18:39:01.105Z"
             },
             {
               "$type": "Document",
@@ -60,18 +67,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-01T18:38:59.397Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{adc868d0-8493-32f6-941b-672cb3f7d230}"
             }
           ]
         },
