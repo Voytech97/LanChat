@@ -9,6 +9,11 @@ using Microsoft.IdentityModel.Tokens;
 Console.WriteLine("============================");
 Console.WriteLine("====LanChat Relay Server====");
 Console.WriteLine("============================");
+
 Console.WriteLine("Enter IP address to listen on (default:localhost)");
 var ipAddress = Console.ReadLine()?.Trim();
 if (string.IsNullOrWhiteSpace(ipAddress)) ipAddress = "localhost";
+
+Console.Write("Enter port to listen on (default:5000): ");
+var port = Console.ReadLine()?.Trim();
+if (string.IsNullOrWhiteSpace(port)) port = "5000";
