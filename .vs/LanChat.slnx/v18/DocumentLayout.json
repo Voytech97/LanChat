@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E5B3D0F4-1D67-2305-FB83-237E388988F6}|LanChat.Server\\LanChat.Server.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B3D0F4-1D67-2305-FB83-237E388988F6}|LanChat.Server\\LanChat.Server.csproj|solutionrelative:lanchat.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4661484E-5660-491D-B06B-6E578A897304}|LanChat.Core\\LanChat.Core.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat.core\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4661484E-5660-491D-B06B-6E578A897304}|LanChat.Core\\LanChat.Core.csproj|solutionrelative:lanchat.core\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat.Server\\Program.cs",
+              "RelativeDocumentMoniker": "LanChat.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat.Server\\Program.cs",
+              "RelativeToolTip": "LanChat.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T10:29:46.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Models.cs",
               "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat.Core\\Models.cs",
               "RelativeDocumentMoniker": "LanChat.Core\\Models.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainView.axaml",
               "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\Views\\MainView.axaml",
               "RelativeDocumentMoniker": "LanChat\\Views\\MainView.axaml",
@@ -58,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "LanChat\\ViewModels\\MainViewModel.cs",

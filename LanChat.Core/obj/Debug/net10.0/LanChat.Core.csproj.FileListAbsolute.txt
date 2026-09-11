@@ -1,0 +1,12 @@
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\bin\Debug\net10.0\LanChat.Core.deps.json
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\bin\Debug\net10.0\LanChat.Core.dll
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\bin\Debug\net10.0\LanChat.Core.pdb
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\LanChat.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\LanChat.Core.AssemblyInfoInputs.cache
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\LanChat.Core.AssemblyInfo.cs
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\LanChat.Core.csproj.CoreCompileInputs.cache
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\LanChat.Core.sourcelink.json
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\LanChat.Core.dll
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\refint\LanChat.Core.dll
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\LanChat.Core.pdb
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\ref\LanChat.Core.dll
