@@ -32,3 +32,39 @@ if (string.IsNullOrWhiteSpace(jwtKey) || jwtKey.Length < 16)
 }
 
 var keyBytes = Encoding.UTF8.GetBytes(jwtKey);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(keyBytes),
+            ValidateIssuer = false,
+            ValidateAudience = false,
+        };
+        options.Events = new JwtBearerEvents
+        {
+            OnMessageReceived = context =>
+            {
+                var accessToken = context.Request.Query["access_token"];
+                var path = context.HttpContext.Request.Path;
+                if (!string.IsNullOrEmpty(accessToken) && path.StartsWithSegments("/chathub"))
+            {
+                context.Token = accessToken;
+            }
+                return Task.CompletedTask;
+            }
+        };
+    });
+
+builder.Services.AddAuthorization();
+builder.Services.AddSignalR();
+
+builder.Services.AddCors(o=>o.AddPolicy("AllowAll", b=> b.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
+
+var app = builder.Build();
+
+app.UseCors("AllowAll");
+app.UseAuthentication();
+app.UseAuthorization();
