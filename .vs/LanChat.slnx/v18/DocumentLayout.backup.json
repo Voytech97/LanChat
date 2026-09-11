@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEC55FD2-1296-4706-AFAB-6F5AE7E2CBFF}|LanChat\\LanChat.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{EEC55FD2-1296-4706-AFAB-6F5AE7E2CBFF}|LanChat\\LanChat.csproj|solutionrelative:lanchat\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|solutionrelative:lanchat\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEC55FD2-1296-4706-AFAB-6F5AE7E2CBFF}|LanChat\\LanChat.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEC55FD2-1296-4706-AFAB-6F5AE7E2CBFF}|LanChat\\LanChat.csproj|solutionrelative:lanchat\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|solutionrelative:lanchat\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +50,7 @@
               "RelativeToolTip": "LanChat\\ViewModels\\MainViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-01T18:38:59.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-01T18:38:59.397Z"
             }
           ]
         },
