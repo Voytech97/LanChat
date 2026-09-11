@@ -105,6 +105,7 @@ app.MapPost("/api/login", (AuthRequest req) =>
 
 app.MapGet("/api/publicKey/{username}", (string username) =>
     usersDb.TryGetValue(username, out var user) ? Results.Ok(user.PublicKey) : Results.NotFound());
+app.MapHub<ChatHub>("/chathub");
 
 Console.WriteLine($"Starting server on http://{ipAddress}:{port}...");
 app.Run();
