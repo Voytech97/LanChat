@@ -108,3 +108,46 @@ app.MapGet("/api/publicKey/{username}", (string username) =>
 
 Console.WriteLine($"Starting server on http://{ipAddress}:{port}...");
 app.Run();
+
+// --- SIGNALR HUB (Message Relay) ---
+public class ChatHub : Hub
+{
+    // Dictionary mapping the username to their unique connection ID (ConnectionId)
+    private static readonly ConcurrentDictionary<string, string> OnlineUsers = new();
+
+    public override Task OnConnectedAsync()
+    {
+        var username = Context.UserIdentifier;
+        if (username != null)
+        {
+            OnlineUsers[username] = Context.ConnectionId;
+            Console.WriteLine($"[SIGNALR] User {username} joined the chat.");
+        }
+        return base.OnConnectedAsync();
+    }
+
+    public override Task OnDisconnectedAsync(Exception? exception)
+    {
+        var username = Context.UserIdentifier;
+        if (username != null)
+        {
+            OnlineUsers.TryRemove(username, out _);
+            Console.WriteLine($"[SIGNALR] User {username} disconnected.");
+        }
+        return base.OnDisconnectedAsync(exception);
+    }
+
+    public async Task SendMessage(ChatMessageDto msg)
+    {
+        // The server acts as a blind relay - it decrypts nothing, just finds the receiver and forwards the packet
+        if (OnlineUsers.TryGetValue(msg.Receiver, out var receiverConnectionId))
+        {
+            await Clients.Client(receiverConnectionId).SendAsync("ReceiveMessage", msg);
+            Console.WriteLine($"[SIGNALR] Packet forwarded from {msg.Sender} to {msg.Receiver}");
+        }
+        else
+        {
+            Console.WriteLine($"[SIGNALR] Receiver {msg.Receiver} is offline.");
+        }
+    }
+}
