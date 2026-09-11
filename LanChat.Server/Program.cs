@@ -1,5 +1,6 @@
 using System.Collections.Concurrent;
 using System.Security.Claims;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using LanChat.Core;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -68,3 +69,42 @@ var app = builder.Build();
 app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
+
+var usersDb = new ConcurrentDictionary<string, AuthRequest>();
+
+app.MapPost("/api/register", (AuthRequest req) =>
+{
+    if (usersDb.ContainsKey(req.Username))
+        return Results.BadRequest(new AuthResponse { Success = false, Message = "Username already exists." });
+
+    usersDb[req.Username] = req;
+    Console.WriteLine($"[SERVER] User registered: {req.Username}");
+    return Results.Ok(new AuthResponse { Success = true });
+
+});
+
+app.MapPost("/api/login", (AuthRequest req) =>
+{
+    if (usersDb.TryGetValue(req.Username, out var user) && user.PasswordHash == req.PasswordHash)
+    {
+        var tokenDescriptor = new SecurityTokenDescriptor
+        {
+            Subject = new ClaimsIdentity(new[] { new Claim(ClaimTypes.NameIdentifier, req.Username) }),
+            Expires = DateTime.UtcNow.AddDays(7),
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(keyBytes), SecurityAlgorithms.HmacSha256Signature)
+        };
+        var tokenHandler = new System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler();
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+
+        Console.WriteLine($"[SERVER] User logged in: {req.Username}");
+        return Results.Ok(new AuthResponse { Success = true, Token = tokenHandler.WriteToken(token) });
+    }
+
+    return Results.BadRequest(new AuthResponse { Success = false, Message = "Invalid credentials." });
+});
+
+app.MapGet("/api/publicKey/{username}", (string username) =>
+    usersDb.TryGetValue(username, out var user) ? Results.Ok(user.PublicKey) : Results.NotFound());
+
+Console.WriteLine($"Starting server on http://{ipAddress}:{port}...");
+app.Run();
