@@ -26,12 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 199,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{adc868d0-8493-32f6-941b-672cb3f7d230}"
@@ -44,7 +40,7 @@
               "RelativeDocumentMoniker": "LanChat.Server\\Program.cs",
               "ToolTip": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat.Server\\Program.cs",
               "RelativeToolTip": "LanChat.Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T10:29:46.71Z",
               "EditorCaption": ""
@@ -59,8 +55,7 @@
               "RelativeToolTip": "LanChat.Core\\Models.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAwwBQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T10:07:12.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T10:07:12.618Z"
             },
             {
               "$type": "Document",
