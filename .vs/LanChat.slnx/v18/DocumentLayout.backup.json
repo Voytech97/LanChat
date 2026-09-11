@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4661484E-5660-491D-B06B-6E578A897304}|LanChat.Core\\LanChat.Core.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat.core\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4661484E-5660-491D-B06B-6E578A897304}|LanChat.Core\\LanChat.Core.csproj|solutionrelative:lanchat.core\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|solutionrelative:lanchat\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
@@ -18,19 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 199,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{adc868d0-8493-32f6-941b-672cb3f7d230}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat.Core\\Models.cs",
+              "RelativeDocumentMoniker": "LanChat.Core\\Models.cs",
+              "ToolTip": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat.Core\\Models.cs",
+              "RelativeToolTip": "LanChat.Core\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T10:07:12.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainView.axaml",
               "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\Views\\MainView.axaml",
               "RelativeDocumentMoniker": "LanChat\\Views\\MainView.axaml",
@@ -42,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "LanChat\\ViewModels\\MainViewModel.cs",
@@ -51,6 +60,18 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-01T18:38:59.397Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{adc868d0-8493-32f6-941b-672cb3f7d230}"
             }
           ]
         },

@@ -9,3 +9,10 @@ public class AuthRequest
     public string PasswordHash { get; set; } = string.Empty;
     public string PublicKey { get; set; } = string.Empty;
 }
+
+public class AuthResponse
+{
+    public string Token { get; set; } = string.Empty;
+    public bool Success { get; set; }
+    public string Message { get; set; } = string.Empty;
+}
