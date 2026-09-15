@@ -63,4 +63,20 @@ namespace LanChat.Services;
 
         return (cipherText, encryptedAesKey, iv);
     }
+
+    //Decrypts payload content using decrypted AES key and IV
+    public string DecryptMessage(string cipherTextBase64, string encryptedAesKeyBase64, string ivBase64, string ownPrivateKeyBase64)
+    {
+        var aesKey = DecryptRSA(encryptedAesKeyBase64, ownPrivateKeyBase64);
+        var iv = Convert.FromBase64String(ivBase64);
+        var cipherBytes = Convert.FromBase64String(cipherTextBase64);
+
+        using var aes = Aes.Create();
+        using var decryptor = aes.CreateDecryptor(aesKey, iv);
+        using var ms = new MemoryStream(cipherBytes);
+        using var cs = new CryptoStream(ms, decryptor, CryptoStreamMode.Read);
+        using var sr = new StreamReader(cs, Encoding.UTF8);
+
+        return sr.ReadToEnd();
+    }
 }
