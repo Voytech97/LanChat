@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4661484E-5660-491D-B06B-6E578A897304}|LanChat.Core\\LanChat.Core.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat.core\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4661484E-5660-491D-B06B-6E578A897304}|LanChat.Core\\LanChat.Core.csproj|solutionrelative:lanchat.core\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat\\lanchat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|solutionrelative:lanchat\\lanchat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|solutionrelative:lanchat\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5B3D0F4-1D67-2305-FB83-237E388988F6}|LanChat.Server\\LanChat.Server.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5B3D0F4-1D67-2305-FB83-237E388988F6}|LanChat.Server\\LanChat.Server.csproj|solutionrelative:lanchat.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4661484E-5660-491D-B06B-6E578A897304}|LanChat.Core\\LanChat.Core.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat.core\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4661484E-5660-491D-B06B-6E578A897304}|LanChat.Core\\LanChat.Core.csproj|solutionrelative:lanchat.core\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -26,28 +34,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 199,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EncryptionService.cs",
+              "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\Services\\EncryptionService.cs",
+              "RelativeDocumentMoniker": "LanChat\\Services\\EncryptionService.cs",
+              "ToolTip": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\Services\\EncryptionService.cs",
+              "RelativeToolTip": "LanChat\\Services\\EncryptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T13:24:08.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LanChat",
+              "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\LanChat.csproj",
+              "RelativeDocumentMoniker": "LanChat\\LanChat.csproj",
+              "ToolTip": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\LanChat.csproj",
+              "RelativeToolTip": "LanChat\\LanChat.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-11T13:23:39.612Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{adc868d0-8493-32f6-941b-672cb3f7d230}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat.Server\\Program.cs",
               "RelativeDocumentMoniker": "LanChat.Server\\Program.cs",
               "ToolTip": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat.Server\\Program.cs",
               "RelativeToolTip": "LanChat.Server\\Program.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGMAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAuwJkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T10:29:46.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Models.cs",
               "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat.Core\\Models.cs",
               "RelativeDocumentMoniker": "LanChat.Core\\Models.cs",
@@ -60,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainView.axaml",
               "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\Views\\MainView.axaml",
               "RelativeDocumentMoniker": "LanChat\\Views\\MainView.axaml",
@@ -71,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "LanChat\\ViewModels\\MainViewModel.cs",

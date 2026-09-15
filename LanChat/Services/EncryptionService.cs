@@ -1,10 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Security.Cryptography;
 using System.Text;
 
-namespace LanChat.Services
+namespace LanChat.Services;
+
+    public class EncryptionService
 {
-    internal class EncryptionService
+    //Hashes password using SHA-256 so the plain password never leaves the clien
+    public string HashPassword(string password)
     {
+        using var sha256 = SHA256.Create();
+        var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+        return Convert.ToBase64String(bytes);
     }
 }
