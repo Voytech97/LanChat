@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat\\lanchat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|solutionrelative:lanchat\\lanchat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|solutionrelative:lanchat\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat\\lanchat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D62A3E79-AA7C-AF47-7C6B-0DB3111F8FED}|LanChat\\LanChat.csproj|solutionrelative:lanchat\\lanchat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5B3D0F4-1D67-2305-FB83-237E388988F6}|LanChat.Server\\LanChat.Server.csproj|c:\\users\\wojciech\\source\\repos\\lanchat\\lanchat.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,22 +37,26 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{adc868d0-8493-32f6-941b-672cb3f7d230}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EncryptionService.cs",
               "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\Services\\EncryptionService.cs",
               "RelativeDocumentMoniker": "LanChat\\Services\\EncryptionService.cs",
               "ToolTip": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\Services\\EncryptionService.cs",
               "RelativeToolTip": "LanChat\\Services\\EncryptionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T13:24:08.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LanChat",
+              "DocumentIndex": 1,
+              "Title": "LanChat.csproj",
               "DocumentMoniker": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\LanChat.csproj",
               "RelativeDocumentMoniker": "LanChat\\LanChat.csproj",
               "ToolTip": "C:\\Users\\Wojciech\\source\\repos\\LanChat\\LanChat\\LanChat.csproj",
@@ -61,10 +65,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-09-11T13:23:39.612Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{adc868d0-8493-32f6-941b-672cb3f7d230}"
             },
             {
               "$type": "Document",
@@ -76,8 +76,7 @@
               "RelativeToolTip": "LanChat.Server\\Program.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAuwJkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T10:29:46.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T10:29:46.71Z"
             },
             {
               "$type": "Document",
@@ -89,8 +88,7 @@
               "RelativeToolTip": "LanChat.Core\\Models.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAwwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T10:07:12.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T10:07:12.618Z"
             },
             {
               "$type": "Document",

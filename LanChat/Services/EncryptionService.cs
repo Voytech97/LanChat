@@ -15,4 +15,12 @@ namespace LanChat.Services;
         var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
         return Convert.ToBase64String(bytes);
     }
+    //Generates a new 2048-bit RSA key for the user
+    public (string publicKey, string PrivateKey) GenerateRSAKeyPair()
+    {
+        using var rsa = RSA.Create(2048);
+        var publicKey = Convert.ToBase64String(rsa.ExportRSAPublicKey());
+        var privateKey = Convert.ToBase64String(rsa.ExportRSAPrivateKey());
+        return (publicKey, privateKey);
+    }
 }
