@@ -23,4 +23,13 @@ namespace LanChat.Services;
         var privateKey = Convert.ToBase64String(rsa.ExportRSAPrivateKey());
         return (publicKey, privateKey);
     }
+
+    //Encrypts the AES session key using the recipient's RSA public key
+    public string EncryptRsa(byte[] data, string receiverPublicKeyBase64)
+    {
+        using var rsa = RSA.Create();
+        rsa.ImportRSAPublicKey(Convert.FromBase64String(receiverPublicKeyBase64), out _);
+        var encrypted = rsa.Encrypt(data, RSAEncryptionPadding.OaepSHA256);
+        return Convert.ToBase64String(encrypted);
+    }
 }
