@@ -40,4 +40,27 @@ namespace LanChat.Services;
         rsa.ImportRSAPrivateKey(Convert.FromBase64String(privateKeyBase64), out _);
         return rsa.Decrypt(Convert.FromBase64String(encryptedDataBase64), RSAEncryptionPadding.OaepSHA256);
     }
+
+    //Encrypts payload content with AES-256-CBC
+    public (string CipherText, string EncryptedAesKey, string Iv) EncryptMessage(string plainText, string receiverPublicKeyBase64)
+    {
+        using var aes = Aes.Create();
+        aes.KeySize = 256;
+        aes.GenerateKey();
+        aes.GenerateIV();
+
+        using var encryptor = aes.CreateEncryptor(aes.Key, aes.IV);
+        using var ms = new MemoryStream();
+        using (var cs = new CryptoStream(ms, encryptor, CryptoStreamMode.Write))
+        using (var sw = new StreamWriter(cs, Encoding.UTF8))
+        {
+            sw.Write(plainText);
+        }
+
+        var cipherText = Convert.ToBase64String(ms.ToArray());
+        var encryptedAesKey = EncryptRsa(aes.Key, receiverPublicKeyBase64);
+        var iv = Convert.ToBase64String(aes.IV);
+
+        return (cipherText, encryptedAesKey, iv);
+    }
 }
