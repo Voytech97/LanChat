@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LanChat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddc46b83bbd2bff5e6ef4ac5ea96d8420ff20617")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7750ac6d3ab9cfd37920a0015bbd26d1936e4f50")]
 [assembly: System.Reflection.AssemblyProductAttribute("LanChat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LanChat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

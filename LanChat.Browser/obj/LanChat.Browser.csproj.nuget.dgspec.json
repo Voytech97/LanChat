@@ -88,6 +88,7 @@
             "CommunityToolkit.Mvvm": "8.4.2",
             "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.11",
             "Microsoft.AspNetCore.SignalR.Client": "10.0.11",
+            "Microsoft.Data.Sqlite": "10.0.12",
             "sqlite-net-pcl": "1.11.285",
             "Xamarin.AndroidX.Core.SplashScreen": "1.0.1.15"
           },
@@ -457,6 +458,7 @@
             "CommunityToolkit.Mvvm": "8.4.2",
             "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.11",
             "Microsoft.AspNetCore.SignalR.Client": "10.0.11",
+            "Microsoft.Data.Sqlite": "10.0.12",
             "sqlite-net-pcl": "1.11.285",
             "Xamarin.AndroidX.Core.SplashScreen": "1.0.1.15"
           },
@@ -838,6 +840,11 @@
               "version": "[10.0.11, )",
               "versionCentrallyManaged": true
             },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.12, )",
+              "versionCentrallyManaged": true
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.11.285, )",
@@ -856,6 +863,7 @@
             "CommunityToolkit.Mvvm": "8.4.2",
             "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.11",
             "Microsoft.AspNetCore.SignalR.Client": "10.0.11",
+            "Microsoft.Data.Sqlite": "10.0.12",
             "sqlite-net-pcl": "1.11.285",
             "Xamarin.AndroidX.Core.SplashScreen": "1.0.1.15"
           },

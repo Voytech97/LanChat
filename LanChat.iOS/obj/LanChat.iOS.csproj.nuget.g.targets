@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)sqlitepclraw.lib.e_sqlite3.ios\2.1.12\buildTransitive\SQLitePCLRaw.lib.e_sqlite3.ios.targets" Condition="Exists('$(NuGetPackageRoot)sqlitepclraw.lib.e_sqlite3.ios\2.1.12\buildTransitive\SQLitePCLRaw.lib.e_sqlite3.ios.targets')" />
     <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\3.119.4\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\3.119.4\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.targets')" />
     <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.ios\3.119.4\buildTransitive\net10.0-ios26.2\SkiaSharp.NativeAssets.iOS.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.ios\3.119.4\buildTransitive\net10.0-ios26.2\SkiaSharp.NativeAssets.iOS.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.options\10.0.11\buildTransitive\net8.0\Microsoft.Extensions.Options.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.options\10.0.11\buildTransitive\net8.0\Microsoft.Extensions.Options.targets')" />

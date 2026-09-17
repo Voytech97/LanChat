@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LanChat.Android")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1b9a78e96381ca3f922707e538ce1b4efdf043c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7750ac6d3ab9cfd37920a0015bbd26d1936e4f50")]
 [assembly: System.Reflection.AssemblyProductAttribute("LanChat.Android")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LanChat.Android")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
