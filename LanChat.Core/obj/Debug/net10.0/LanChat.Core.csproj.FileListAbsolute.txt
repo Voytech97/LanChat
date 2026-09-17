@@ -10,3 +10,4 @@ C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\LanChat.Co
 C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\refint\LanChat.Core.dll
 C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\LanChat.Core.pdb
 C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\ref\LanChat.Core.dll
+C:\Users\Wojciech\source\repos\LanChat\LanChat.Core\obj\Debug\net10.0\LanChat..89DEF2EB.Up2Date

@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:views="using:LanChat.Views"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        Width="400" Height="600"
         x:Class="LanChat.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="LanChat">

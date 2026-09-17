@@ -12,3 +12,7 @@ C:\Users\Wojciech\source\repos\LanChat\LanChat\obj\Debug\net10.0\LanChat.dll
 C:\Users\Wojciech\source\repos\LanChat\LanChat\obj\Debug\net10.0\refint\LanChat.dll
 C:\Users\Wojciech\source\repos\LanChat\LanChat\obj\Debug\net10.0\LanChat.pdb
 C:\Users\Wojciech\source\repos\LanChat\LanChat\obj\Debug\net10.0\ref\LanChat.dll
+C:\Users\Wojciech\source\repos\LanChat\LanChat\obj\Debug\net10.0\LanChat.sourcelink.json
+C:\Users\Wojciech\source\repos\LanChat\LanChat\bin\Debug\net10.0\LanChat.Core.dll
+C:\Users\Wojciech\source\repos\LanChat\LanChat\bin\Debug\net10.0\LanChat.Core.pdb
+C:\Users\Wojciech\source\repos\LanChat\LanChat\obj\Debug\net10.0\LanChat.csproj.Up2Date
